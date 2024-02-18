@@ -1,0 +1,18 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package com.project.mobileshop.dao.custom;
+
+import com.project.mobileshop.core.dto.CustomerDTO;
+import com.project.mobileshop.dao.SuperDAO;
+
+/**
+ *
+ * @author Janitha Dhananjaya
+ */
+public interface CustomerDAO extends SuperDAO<CustomerDTO>{
+    public CustomerDTO searchFromID(CustomerDTO DTO)throws Exception;
+    public CustomerDTO searchFromName(CustomerDTO DTO)throws Exception;
+}

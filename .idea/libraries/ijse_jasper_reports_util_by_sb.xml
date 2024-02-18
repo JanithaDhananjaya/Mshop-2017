@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ijse-jasper-reports-util-by-sb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/Jasper_Report_New/ijse-jasper-reports-util-by-sb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
